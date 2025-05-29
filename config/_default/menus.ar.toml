@@ -1,0 +1,31 @@
+############################## navigation ###############################
+
+[[main]]
+name = "الرئيسية"
+URL = "hero-area"
+weight = 1
+
+[[main]]
+name = "من نحن"
+URL = "about-us"
+weight = 2
+
+[[main]]
+name = "المدونة"
+URL = "blog"
+weight = 3
+
+[[main]]
+name = "الأسعار"
+URL = "price"
+weight = 4
+
+[[main]]
+name = "الأخبار"
+URL = "subscribe"
+weight = 5
+
+[[main]]
+name = "اتصل بنا"
+URL = "contact-us"
+weight = 6

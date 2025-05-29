@@ -6,3 +6,12 @@ languageName = "En"
 languageCode = "en-us"
 contentDir = "content"
 weight = 1
+
+# --------------------------
+# Arabic language
+# --------------------------
+[ar]
+languageName = "Ar"
+languageCode = "ar"
+contentDir = "content/ar"
+weight = 2

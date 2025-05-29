@@ -1,4 +1,3 @@
-
 # Preloader
 [params.preloader]
 enable = false
@@ -78,3 +77,5 @@ link = "https://fb.com/themefisher"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+defaultContentLanguage = "en"

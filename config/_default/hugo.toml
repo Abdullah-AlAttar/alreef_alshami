@@ -1,7 +1,8 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/restaurant/examplesite/"
 languageCode = "en-us"
-title = "Restaurant Hugo"
+title = "Alreef Alshami Restaurant"
 theme = "restaurant-hugo"
-summaryLength = "10"
+summaryLength = 10
 pagination.pagerSize = 4
+defaultContentLanguage = "en"
