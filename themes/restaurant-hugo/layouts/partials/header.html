@@ -16,7 +16,8 @@
 						</button>
 						{{"<!-- logo -->" | safeHTML}}
 						<a class="navbar-brand" href="{{ site.BaseURL }}">
-							<img class="img-responsive" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
+							<!-- <img class="img-responsive" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"> -->
+							 <p>{{site.Title}}</p>
 						</a>
 						{{"<!-- logo -->" | safeHTML}}
 					</div>
@@ -28,7 +29,8 @@
 							<li><a href="#{{.URL}}">{{ .Name }}</a></li>
 							{{ end }}
 							{{ if hugo.IsMultilingual }}
-							<li class="dropdown">
+							{{/* Dropdown for sm screens and up */}}
+							<li class="dropdown hidden-xs">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Site.Language.LanguageName }} <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									{{ range .Site.Languages }}
@@ -38,6 +40,12 @@
 									{{ end }}
 								</ul>
 							</li>
+							{{/* Simple list for xs screens */}}
+							{{ range .Site.Languages }}
+							{{ if ne .LanguageName $.Site.Language.LanguageName }}
+							<li class="visible-xs-block"><a href="{{ .Lang | absURL }}">{{ .LanguageName }}</a></li>
+							{{ end }}
+							{{ end }}
 							{{ end }}
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -48,7 +56,8 @@
 							<li><a href="{{site.BaseURL}}#{{.URL}}">{{ .Name }}</a></li>
 							{{ end }}
 							{{ if hugo.IsMultilingual }}
-							<li class="dropdown">
+							{{/* Dropdown for sm screens and up */}}
+							<li class="dropdown hidden-xs">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Site.Language.LanguageName }} <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									{{ range .Site.Languages }}
@@ -58,6 +67,12 @@
 									{{ end }}
 								</ul>
 							</li>
+							{{/* Simple list for xs screens */}}
+							{{ range .Site.Languages }}
+							{{ if ne .LanguageName $.Site.Language.LanguageName }}
+							<li class="visible-xs-block"><a href="{{ .Lang | absURL }}">{{ .LanguageName }}</a></li>
+							{{ end }}
+							{{ end }}
 							{{ end }}
 						</ul>
 					</div><!-- /.navbar-collapse -->

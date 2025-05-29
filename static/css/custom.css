@@ -1,0 +1,9 @@
+/* Custom CSS for Alreef Alshami Restaurant */
+
+.navbar-brand p {
+  font-family: 'Georgia', serif; /* Example: A nice serif font */
+  font-size: 24px; /* Adjust size as needed */
+  color: #333; /* Adjust color as needed */
+  /* margin-top: 0px; Adjust vertical alignment if necessary */
+  font-weight: bold;
+}
