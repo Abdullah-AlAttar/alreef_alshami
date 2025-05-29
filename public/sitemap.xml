@@ -2,14 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
-    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
+    <loc>http://localhost:1313/restaurant/examplesite/post/</loc>
+    <lastmod>2018-12-26T12:30:01+06:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
-    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
+    <loc>http://localhost:1313/restaurant/examplesite/post/red-pepper-miso-wings-2/</loc>
+    <lastmod>2018-12-26T12:30:01+06:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://localhost:1313/restaurant/examplesite/</loc>
+    <lastmod>2018-12-26T12:30:01+06:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:1313/restaurant/examplesite/post/red-pepper-miso-wings/</loc>
+    <lastmod>2018-12-26T12:28:47+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/restaurant/examplesite/post/homestyle-chicken-pot-pie/</loc>
+    <lastmod>2018-12-26T12:23:10+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/restaurant/examplesite/post/restaurant/</loc>
+    <lastmod>2018-12-26T11:40:41+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/restaurant/examplesite/post/my-first-post/</loc>
+    <lastmod>2018-12-12T04:28:21+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/restaurant/examplesite/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/restaurant/examplesite/tags/</loc>
   </url>
 </urlset>
